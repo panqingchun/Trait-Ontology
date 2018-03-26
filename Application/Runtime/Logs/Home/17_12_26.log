@@ -1,0 +1,24 @@
+[ 2017-12-26T02:13:51+08:00 ] 111.206.59.141 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-12-26T04:24:50+08:00 ] 111.206.59.141 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-12-26T20:35:31+08:00 ] 27.17.71.244 /julei-0917/index.php/home/traits/search_trait.html
+ERR: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+
+[ 2017-12-26T20:44:21+08:00 ] 171.13.14.147 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-12-26T20:45:02+08:00 ] 220.181.132.194 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-12-26T20:45:35+08:00 ] 171.13.14.152 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-12-26T20:45:35+08:00 ] 171.13.14.152 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-12-26T20:45:38+08:00 ] 182.118.20.145 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+

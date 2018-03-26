@@ -1,0 +1,1 @@
+a:5:{i:0;s:2:"ID";i:1;s:5:"gene1";i:2;s:5:"gene2";i:3;s:5:"value";s:5:"_type";a:4:{s:2:"ID";s:12:"varchar(255)";s:5:"gene1";s:12:"varchar(255)";s:5:"gene2";s:12:"varchar(255)";s:5:"value";s:12:"varchar(255)";}}

@@ -1,0 +1,1 @@
+a:4:{i:0;s:2:"ID";i:1;s:4:"gene";i:2;s:7:"pathway";s:5:"_type";a:3:{s:2:"ID";s:12:"varchar(255)";s:4:"gene";s:12:"varchar(255)";s:7:"pathway";s:12:"varchar(255)";}}

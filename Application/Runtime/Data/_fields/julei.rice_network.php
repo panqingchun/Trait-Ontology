@@ -1,0 +1,1 @@
+a:5:{i:0;s:8:"moduleID";i:1;s:5:"gene#";i:2;s:8:"genelist";s:3:"_pk";s:8:"moduleID";s:5:"_type";a:3:{s:8:"moduleID";s:12:"varchar(255)";s:5:"gene#";s:7:"int(11)";s:8:"genelist";s:8:"longtext";}}

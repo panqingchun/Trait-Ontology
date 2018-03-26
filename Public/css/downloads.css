@@ -1,0 +1,60 @@
+header {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.main{
+    background: rgba(255, 255, 255, 0.9);
+    padding:30px 30px;
+}
+.main-header {
+    color: #68B04D;
+    font: normal normal normal 25px/1.1em '微软雅黑',sans-serif;
+    font-weight: bold;
+}
+.main-down {
+    width: 100%;
+    margin-top:15px;
+    border-top:2px solid rgba(137, 191, 36, 0.53);
+}
+.main-down :first-child {
+    margin-top:10px;
+}
+
+.main-down-row {
+    margin-top:50px;
+}
+
+.main-down-row img {
+    width: 120px;
+    height: 120px;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 4px 4px 7px #999;
+}
+
+.main-down-row-right {
+    margin-left: 20px;
+    width:750px;
+    display: inline-block;
+    text-align:justify;
+    margin-top: -5px;
+}
+.right-header {
+    color: #A8A8A8;
+    font-size: 25px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.right-middle {
+    color: #A8A8A8;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: italic;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.right-footer {
+    color: #1C8A43;
+    font: normal normal bold 14px/1.3em 'Trebuchet MS', Helvetica, sans-serif;
+}

@@ -1,0 +1,2703 @@
+[ 2017-10-23T17:04:21+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Analysis/module.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007134s ]
+SQL: SHOW COLUMNS FROM `network` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `maizenew_co_expression` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ricenew_co_expression` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `rice_network` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `v3_v4` [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G026767%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G026767'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G026767'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G177052%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G177052'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G177052'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G104534%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G104534'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G104534'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G076593%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G076593'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G076593'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G883601%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G883601'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G883601'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G030850%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G030850'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G030850'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G391312%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G391312'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G391312'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G117956%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G117956'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G117956'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G083176%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G083176'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G083176'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G096115%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G096115'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G096115'  [ RunTime:0.0015s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G134194%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G134194'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G134194'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G005278%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G005278'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G005278'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G086727%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G086727'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G086727'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G426953%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G426953'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G426953'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G034791%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G034791'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G034791'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G110067%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G110067'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G110067'  [ RunTime:0.0044s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G816356%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G816356'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G816356'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC233872.1_FG003%'  [ RunTime:0.0030s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC233872.1_FG003'  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC233872.1_FG003'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G011436%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G011436'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G011436'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G380319%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G380319'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G380319'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G044822%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G044822'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G044822'  [ RunTime:0.0012s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G090732%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G090732'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G090732'  [ RunTime:0.0020s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G375222%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G375222'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G375222'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G427620%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G427620'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G427620'  [ RunTime:0.0018s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G015267%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G015267'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G015267'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G368678%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G368678'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G368678'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G059225%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G059225'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G059225'  [ RunTime:0.0018s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G037130%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G037130'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G037130'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G121452%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G121452'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G121452'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G130987%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G130987'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G130987'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G139852%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G139852'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G139852'  [ RunTime:0.0013s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G082792%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G082792'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G082792'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G029058%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G029058'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G029058'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G132614%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G132614'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G132614'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G150631%'  [ RunTime:0.0046s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G150631'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G150631'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G300589%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G300589'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G300589'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G850577%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G850577'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G850577'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G163015%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G163015'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G163015'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G124339%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G124339'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G124339'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G033230%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G033230'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G033230'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G169681%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G169681'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G169681'  [ RunTime:0.0021s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G126572%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G126572'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G126572'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G080644%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G080644'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G080644'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G044448%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G044448'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G044448'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G016513%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G016513'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G016513'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%zma-MIR393b %'  [ RunTime:0.0036s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'zma-MIR393b'  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'zma-MIR393b'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G155242%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G155242'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G155242'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G380195%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G380195'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G380195'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G070716%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G070716'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G070716'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G305834%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G305834'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G305834'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G179264%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G179264'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G179264'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G009638%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G009638'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G009638'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G108316%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G108316'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G108316'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G031882%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G031882'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G031882'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G024247%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G024247'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G024247'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G355398%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G355398'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G355398'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G173137%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G173137'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G173137'  [ RunTime:0.0030s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G818631%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G818631'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G818631'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G347836%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G347836'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G347836'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G836162%'  [ RunTime:0.0046s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G836162'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G836162'  [ RunTime:0.0002s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC188753.3_FG004%'  [ RunTime:0.0030s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC188753.3_FG004'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC188753.3_FG004'  [ RunTime:0.0031s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G119150%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G119150'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G119150'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G422651%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G422651'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G422651'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G055585%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G055585'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G055585'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G033199%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G033199'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G033199'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G002173%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G002173'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G002173'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G173700%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G173700'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G173700'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G034534%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G034534'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G034534'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G139965%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G139965'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G139965'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G350621%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G350621'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G350621'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G123909%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G123909'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G123909'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G032193%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G032193'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G032193'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G107815%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G107815'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G107815'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G147683%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G147683'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G147683'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G003506%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G003506'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G003506'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G138817%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G138817'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G138817'  [ RunTime:0.0017s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G057768%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G057768'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G057768'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G023279%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G023279'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G023279'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G375113%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G375113'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G375113'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G839422%'  [ RunTime:0.0044s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G839422'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G839422'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G151087%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G151087'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G151087'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G140694%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G140694'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G140694'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G153769%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G153769'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G153769'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G079823%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G079823'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G079823'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G066441%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G066441'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G066441'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G121753%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G121753'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G121753'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G072690%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G072690'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G072690'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G897473%'  [ RunTime:0.0045s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G897473'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G897473'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G027530%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G027530'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G027530'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G130121%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G130121'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G130121'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G349243%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G349243'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G349243'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G060589%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G060589'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G060589'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G077045%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G077045'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G077045'  [ RunTime:0.0013s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G085049%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G085049'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G085049'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G402618%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G402618'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G402618'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G100898%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G100898'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G100898'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC234155.1_FG002%'  [ RunTime:0.0029s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC234155.1_FG002'  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC234155.1_FG002'  [ RunTime:0.0026s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G319786%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G319786'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G319786'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G871709%'  [ RunTime:0.0045s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G871709'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G871709'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G049510%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G049510'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G049510'  [ RunTime:0.0016s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G124016%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G124016'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G124016'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G073324%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G073324'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G073324'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G040078%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G040078'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G040078'  [ RunTime:0.0014s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G047513%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G047513'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G047513'  [ RunTime:0.0021s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G417229%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G417229'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G417229'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G430482%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G430482'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G430482'  [ RunTime:0.0013s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G071573%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G071573'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G071573'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G162466%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G162466'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G162466'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G143082%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G143082'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G143082'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G305238%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G305238'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G305238'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC205725.3_FG010%'  [ RunTime:0.0030s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC205725.3_FG010'  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC205725.3_FG010'  [ RunTime:0.0017s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G127168%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G127168'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G127168'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G019450%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G019450'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G019450'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G851838%'  [ RunTime:0.0046s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G851838'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G851838'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G354190%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G354190'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G354190'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G398062%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G398062'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G398062'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G054465%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G054465'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G054465'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G386991%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G386991'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G386991'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G096470%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G096470'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G096470'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G830365%'  [ RunTime:0.0045s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G830365'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G830365'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G870753%'  [ RunTime:0.0046s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G870753'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G870753'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G114680%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G114680'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G114680'  [ RunTime:0.0024s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G704282%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G704282'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G704282'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G010136%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G010136'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G010136'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G011912%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G011912'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G011912'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G118022%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G118022'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G118022'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G420882%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G420882'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G420882'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G122481%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G122481'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G122481'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G137596%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G137596'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G137596'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G057618%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G057618'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G057618'  [ RunTime:0.0014s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G102662%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G102662'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G102662'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G160013%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G160013'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G160013'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G134753%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G134753'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G134753'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G834354%'  [ RunTime:0.0043s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G834354'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G834354'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G469477%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G469477'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G469477'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G141600%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G141600'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G141600'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G113372%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G113372'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G113372'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G043226%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G043226'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G043226'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G149556%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G149556'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G149556'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G318956%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G318956'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G318956'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G174136%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G174136'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G174136'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G011592%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G011592'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G011592'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G179985%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G179985'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G179985'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G179761%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G179761'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G179761'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G062499%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G062499'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G062499'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G027049%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G027049'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G027049'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G481069%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G481069'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G481069'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G065210%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G065210'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G065210'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G432631%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G432631'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G432631'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G099454%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G099454'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G099454'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G073086%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G073086'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G073086'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G700757%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G700757'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G700757'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G035890%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G035890'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G035890'  [ RunTime:0.0016s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G310840%'  [ RunTime:0.0063s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G310840'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G310840'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G099353%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G099353'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G099353'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G026013%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G026013'  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G026013'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G152822%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G152822'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G152822'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G884137%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G884137'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G884137'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G148147%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G148147'  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G148147'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G092813%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G092813'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G092813'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G476921%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G476921'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G476921'  [ RunTime:0.0019s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G176407%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G176407'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G176407'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G058954%'  [ RunTime:0.0061s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G058954'  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G058954'  [ RunTime:0.0012s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G011588%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G011588'  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G011588'  [ RunTime:0.0012s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G590792%'  [ RunTime:0.0060s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G590792'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G590792'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G112681%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G112681'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G112681'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G179031%'  [ RunTime:0.0059s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G179031'  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G179031'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G472625%'  [ RunTime:0.0065s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G472625'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G472625'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G008064%'  [ RunTime:0.0059s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G008064'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G008064'  [ RunTime:0.0013s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G411940%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G411940'  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G411940'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G440005%'  [ RunTime:0.0066s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G440005'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G440005'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G451112%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G451112'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G451112'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G329002%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G329002'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G329002'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G126642%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G126642'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G126642'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G151516%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G151516'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G151516'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G866027%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G866027'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G866027'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G420743%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G420743'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G420743'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G469175%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G469175'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G469175'  [ RunTime:0.0002s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G078024%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G078024'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G078024'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G161728%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G161728'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G161728'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G044989%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G044989'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G044989'  [ RunTime:0.0012s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G025989%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G025989'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G025989'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G084586%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G084586'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G084586'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G817035%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G817035'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G817035'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC234154.1_FG007%'  [ RunTime:0.0031s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC234154.1_FG007'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC234154.1_FG007'  [ RunTime:0.0020s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G078826%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G078826'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G078826'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G445783%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G445783'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G445783'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G075630%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G075630'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G075630'  [ RunTime:0.0018s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G342509%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G342509'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G342509'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G031637%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G031637'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G031637'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G090744%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G090744'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G090744'  [ RunTime:0.0026s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G346513%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G346513'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G346513'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G157263%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G157263'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G157263'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G174938%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G174938'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G174938'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G136534%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G136534'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G136534'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G552793%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G552793'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G552793'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G178998%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G178998'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G178998'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G000124%'  [ RunTime:0.0059s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G000124'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G000124'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G474119%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G474119'  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G474119'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC185587.3_FG003%'  [ RunTime:0.0035s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC185587.3_FG003'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC185587.3_FG003'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G373329%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G373329'  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G373329'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC234528.1_FG006%'  [ RunTime:0.0035s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC234528.1_FG006'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC234528.1_FG006'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G805105%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G805105'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G805105'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G090271%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G090271'  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G090271'  [ RunTime:0.0025s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G178356%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G178356'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G178356'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G092592%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G092592'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G092592'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G128491%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G128491'  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G128491'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G014463%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G014463'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G014463'  [ RunTime:0.0030s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G129635%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G129635'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G129635'  [ RunTime:0.0021s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G416509%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G416509'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G416509'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G413113%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G413113'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G413113'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G467356%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G467356'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G467356'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G089092%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G089092'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G089092'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G114427%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G114427'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G114427'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G164963%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G164963'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G164963'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G068011%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G068011'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G068011'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G029135%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G029135'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G029135'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G121495%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G121495'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G121495'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G360867%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G360867'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G360867'  [ RunTime:0.0034s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G422948%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G422948'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G422948'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G345270%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G345270'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G345270'  [ RunTime:0.0017s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC198398.3_FG003%'  [ RunTime:0.0033s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC198398.3_FG003'  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC198398.3_FG003'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G062635%'  [ RunTime:0.0065s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G062635'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G062635'  [ RunTime:0.0071s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G470863%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G470863'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G470863'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G018080%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G018080'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G018080'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G053027%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G053027'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G053027'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G158568%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G158568'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G158568'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G088132%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G088132'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G088132'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G046353%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G046353'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G046353'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G129261%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G129261'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G129261'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G173257%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G173257'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G173257'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G101393%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G101393'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G101393'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G017197%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G017197'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G017197'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G034471%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G034471'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G034471'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G457621%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G457621'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G457621'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC202129.3_FG001%'  [ RunTime:0.0033s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC202129.3_FG001'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC202129.3_FG001'  [ RunTime:0.0028s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G067915%'  [ RunTime:0.0058s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G067915'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G067915'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G137525%'  [ RunTime:0.0056s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G137525'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G137525'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G425736%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G425736'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G425736'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G324544%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G324544'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G324544'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G092607%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G092607'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G092607'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G139837%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G139837'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G139837'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G387383%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G387383'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G387383'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G017319%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G017319'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G017319'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G119465%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G119465'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G119465'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G018217%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G018217'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G018217'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G168849%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G168849'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G168849'  [ RunTime:0.0015s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G010555%'  [ RunTime:0.0055s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G010555'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G010555'  [ RunTime:0.0015s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G103662%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G103662'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G103662'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G413193%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G413193'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G413193'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G524198%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G524198'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G524198'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G172621%'  [ RunTime:0.0059s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G172621'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G172621'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G105330%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G105330'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G105330'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G080731%'  [ RunTime:0.0071s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G080731'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G080731'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G039074%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G039074'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G039074'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G359105%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G359105'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G359105'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G180920%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G180920'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G180920'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G039455%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G039455'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G039455'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G160527%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G160527'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G160527'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G424651%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G424651'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G424651'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G429964%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G429964'  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G429964'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G083538%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G083538'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G083538'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G807213%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G807213'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G807213'  [ RunTime:0.0014s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G142984%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G142984'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G142984'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G076062%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G076062'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G076062'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G060156%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G060156'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G060156'  [ RunTime:0.0020s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G153799%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G153799'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G153799'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G098986%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G098986'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G098986'  [ RunTime:0.0016s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G046458%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G046458'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G046458'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G043191%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G043191'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G043191'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G701138%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G701138'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G701138'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G451028%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G451028'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G451028'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G171210%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G171210'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G171210'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G052610%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G052610'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G052610'  [ RunTime:0.0019s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G080274%'  [ RunTime:0.0061s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G080274'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G080274'  [ RunTime:0.0019s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G135783%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G135783'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G135783'  [ RunTime:0.0014s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G077215%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G077215'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G077215'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC234149.1_FG001%'  [ RunTime:0.0034s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC234149.1_FG001'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC234149.1_FG001'  [ RunTime:0.0023s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G052233%'  [ RunTime:0.0062s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G052233'  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G052233'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G438080%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G438080'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G438080'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G504401%'  [ RunTime:0.0052s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G504401'  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G504401'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G116514%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G116514'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G116514'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G016890%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G016890'  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G016890'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G042865%'  [ RunTime:0.0065s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G042865'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G042865'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G141975%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G141975'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G141975'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G086841%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G086841'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G086841'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G111923%'  [ RunTime:0.0063s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G111923'  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G111923'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G004703%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G004703'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G004703'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G138632%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G138632'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G138632'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G026922%'  [ RunTime:0.0054s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G026922'  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G026922'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G179941%'  [ RunTime:0.0049s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G179941'  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G179941'  [ RunTime:0.0008s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G162623%'  [ RunTime:0.0062s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G162623'  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G162623'  [ RunTime:0.0005s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G378836%'  [ RunTime:0.0059s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G378836'  [ RunTime:0.0098s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G378836'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G111677%'  [ RunTime:0.0064s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G111677'  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G111677'  [ RunTime:0.0026s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G111491%'  [ RunTime:0.0064s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G111491'  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G111491'  [ RunTime:0.0012s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G153722%'  [ RunTime:0.0068s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G153722'  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G153722'  [ RunTime:0.0007s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC186287.7_FG005%'  [ RunTime:0.0040s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC186287.7_FG005'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC186287.7_FG005'  [ RunTime:0.0023s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G138731%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G138731'  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G138731'  [ RunTime:0.0014s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G113156%'  [ RunTime:0.0053s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G113156'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G113156'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G503156%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G503156'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G503156'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G389155%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G389155'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G389155'  [ RunTime:0.0009s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G127924%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G127924'  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G127924'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G031360%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G031360'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G031360'  [ RunTime:0.0019s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G034113%'  [ RunTime:0.0050s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G034113'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G034113'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G091503%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G091503'  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G091503'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G378547%'  [ RunTime:0.0057s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G378547'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G378547'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G480903%'  [ RunTime:0.0048s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G480903'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G480903'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G155332%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G155332'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G155332'  [ RunTime:0.0011s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G153181%'  [ RunTime:0.0046s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G153181'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G153181'  [ RunTime:0.0006s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G861756%'  [ RunTime:0.0046s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G861756'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G861756'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%AC202439.3_FG006%'  [ RunTime:0.0032s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'AC202439.3_FG006'  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'AC202439.3_FG006'  [ RunTime:0.0004s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G170365%'  [ RunTime:0.0047s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G170365'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G170365'  [ RunTime:0.0010s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM5G803886%'  [ RunTime:0.0045s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM5G803886'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM5G803886'  [ RunTime:0.0003s ]
+SQL: SELECT `moduleID` FROM `network` WHERE `genelist` LIKE '%GRMZM2G083749%'  [ RunTime:0.0051s ]
+SQL: SELECT `V4` FROM `v3_v4` WHERE `V3` = 'GRMZM2G083749'  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `maizenew_co_expression` WHERE `gene1` = 'GRMZM2G083749'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `network`  [ RunTime:0.0010s ]
+
+[ 2017-10-23T17:05:42+08:00 ] 122.205.67.33 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `pageview` SET `count`='3994' WHERE ( id = 0 ) [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-10-23T17:06:47+08:00 ] 125.88.219.97 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='3995' WHERE ( id = 0 ) [ RunTime:0.0204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-10-23T17:06:54+08:00 ] 122.205.67.33 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='3996' WHERE ( id = 0 ) [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-10-23T17:07:52+08:00 ] 111.206.241.75 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='3997' WHERE ( id = 0 ) [ RunTime:0.0236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-10-23T17:08:39+08:00 ] 101.226.162.89 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='3998' WHERE ( id = 0 ) [ RunTime:0.0138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-10-23T17:11:56+08:00 ] 125.88.219.97 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='3999' WHERE ( id = 0 ) [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-10-23T17:12:52+08:00 ] 111.206.241.75 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4000' WHERE ( id = 0 ) [ RunTime:0.0239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2017-10-23T17:13:40+08:00 ] 101.226.162.89 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='4001' WHERE ( id = 0 ) [ RunTime:0.0149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-10-23T17:15:54+08:00 ] 202.112.26.123 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4002' WHERE ( id = 0 ) [ RunTime:0.0186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-10-23T17:16:47+08:00 ] 125.88.219.97 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='4003' WHERE ( id = 0 ) [ RunTime:0.0195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-10-23T17:17:52+08:00 ] 111.206.241.75 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4004' WHERE ( id = 0 ) [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-10-23T17:18:40+08:00 ] 101.226.162.89 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='4005' WHERE ( id = 0 ) [ RunTime:0.0168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-10-23T17:48:00+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4006' WHERE ( id = 0 ) [ RunTime:0.0194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-10-23T17:52:10+08:00 ] 122.205.67.42 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4007' WHERE ( id = 0 ) [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-10-23T17:52:53+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Search/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-10-23T17:52:55+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Genes/genes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/html/julei-0917/Application/Home/Controller/GenesController.class.php 第 4 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-10-23T17:52:56+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Analysis/analysis.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-10-23T17:52:57+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Analysis/find_infor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Ref_infor` FROM `pqc_maize`  [ RunTime:0.0214s ]
+
+[ 2017-10-23T17:53:16+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Manual/manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-10-23T17:53:16+08:00 ] 122.205.67.42 /julei-0917/index.php/Home/Downloads/downloads.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-10-23T19:14:44+08:00 ] 122.205.67.33 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4008' WHERE ( id = 0 ) [ RunTime:0.0167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-10-23T19:14:46+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Analysis/analysis.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-10-23T19:14:46+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Analysis/find_infor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Ref_infor` FROM `pqc_maize`  [ RunTime:0.0208s ]
+
+[ 2017-10-23T19:15:10+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=g&species=Maize&_=1508757306505
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'g%' )  [ RunTime:0.0099s ]
+
+[ 2017-10-23T19:15:19+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=g&species=Maize&_=1508757306506
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'g%' )  [ RunTime:0.0095s ]
+
+[ 2017-10-23T19:15:19+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=gr&species=Maize&_=1508757306507
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0016s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'gr%' )  [ RunTime:0.0116s ]
+
+[ 2017-10-23T19:15:22+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=gra&species=Maize&_=1508757306508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'gra%' )  [ RunTime:0.0094s ]
+
+[ 2017-10-23T19:15:22+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grai&species=Maize&_=1508757306509
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0019s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grai%' )  [ RunTime:0.0131s ]
+
+[ 2017-10-23T19:15:23+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain&species=Maize&_=1508757306510
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain%' )  [ RunTime:0.0093s ]
+
+[ 2017-10-23T19:15:23+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain&species=Maize&_=1508757306511
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain%' )  [ RunTime:0.0106s ]
+
+[ 2017-10-23T19:15:23+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain+y&species=Maize&_=1508757306512
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain y%' )  [ RunTime:0.0097s ]
+
+[ 2017-10-23T19:15:24+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain+yi&species=Maize&_=1508757306513
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain yi%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T19:15:24+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain+yie&species=Maize&_=1508757306514
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain yie%' )  [ RunTime:0.0090s ]
+
+[ 2017-10-23T19:15:25+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain+yiel&species=Maize&_=1508757306515
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain yiel%' )  [ RunTime:0.0094s ]
+
+[ 2017-10-23T19:15:25+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain+yield&species=Maize&_=1508757306516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain yield%' )  [ RunTime:0.0097s ]
+
+[ 2017-10-23T19:15:26+08:00 ] 122.205.67.33 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=grain+yield&species=Maize&_=1508757306517
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'grain yield%' )  [ RunTime:0.0095s ]
+
+[ 2017-10-23T20:20:29+08:00 ] 122.205.84.252 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4009' WHERE ( id = 0 ) [ RunTime:0.0125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-10-23T20:21:11+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Analysis/analysis.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-10-23T20:21:12+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Analysis/find_infor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Ref_infor` FROM `pqc_maize`  [ RunTime:0.0204s ]
+
+[ 2017-10-23T20:21:26+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Downloads/downloads.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-10-23T20:21:27+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Downloads/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-10-23T20:21:28+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Search/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-10-23T20:21:29+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Search/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-10-23T20:21:32+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='4010' WHERE ( id = 0 ) [ RunTime:0.0179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-10-23T20:21:33+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Index/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-10-23T20:22:03+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Analysis/analysis.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-10-23T20:22:04+08:00 ] 122.205.84.252 /julei-0917/index.php/Home/Analysis/find_infor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Ref_infor` FROM `pqc_maize`  [ RunTime:0.0207s ]
+
+[ 2017-10-23T20:28:26+08:00 ] 218.199.68.251 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4011' WHERE ( id = 0 ) [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-10-23T20:42:28+08:00 ] 218.199.68.251 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `pageview` SET `count`='4012' WHERE ( id = 0 ) [ RunTime:0.0226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-10-23T20:42:30+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Search/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-10-23T20:42:30+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Search/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-10-23T20:42:31+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Analysis/analysis.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-10-23T20:42:32+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Analysis/find_infor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Ref_infor` FROM `pqc_maize`  [ RunTime:0.0207s ]
+
+[ 2017-10-23T20:43:06+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-10-23T20:43:09+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-10-23T20:43:12+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508762433210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0106s ]
+
+[ 2017-10-23T20:43:12+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508762433211
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0100s ]
+
+[ 2017-10-23T20:43:14+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508762433212
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T20:43:15+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508762433213
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T20:43:16+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=ada&species=Maize&_=1508762433214
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'ada%' )  [ RunTime:0.0093s ]
+NOTIC: [8] Undefined variable: tra /var/www/html/julei-0917/Application/Home/Controller/TraitsController.class.php 第 53 行.
+
+[ 2017-10-23T20:43:16+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=ada&species=Maize&_=1508762433215
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'ada%' )  [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: tra /var/www/html/julei-0917/Application/Home/Controller/TraitsController.class.php 第 53 行.
+
+[ 2017-10-23T20:43:16+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=ada&species=Maize&_=1508762433216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'ada%' )  [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: tra /var/www/html/julei-0917/Application/Home/Controller/TraitsController.class.php 第 53 行.
+
+[ 2017-10-23T20:43:17+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=ad&species=Maize&_=1508762433217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'ad%' )  [ RunTime:0.0097s ]
+
+[ 2017-10-23T20:43:17+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508762433218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0102s ]
+
+[ 2017-10-23T20:43:18+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=sa&species=Maize&_=1508762433219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'sa%' )  [ RunTime:0.0109s ]
+NOTIC: [8] Undefined variable: tra /var/www/html/julei-0917/Application/Home/Controller/TraitsController.class.php 第 53 行.
+
+[ 2017-10-23T20:43:18+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=sa&species=Maize&_=1508762433220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'sa%' )  [ RunTime:0.0094s ]
+NOTIC: [8] Undefined variable: tra /var/www/html/julei-0917/Application/Home/Controller/TraitsController.class.php 第 53 行.
+
+[ 2017-10-23T20:43:19+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508762433221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0105s ]
+
+[ 2017-10-23T20:43:19+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508762433222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0104s ]
+
+[ 2017-10-23T20:43:29+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508762433223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0100s ]
+
+[ 2017-10-23T20:43:31+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508762433224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0104s ]
+
+[ 2017-10-23T20:47:37+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508762433225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0017s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0107s ]
+
+[ 2017-10-23T20:53:23+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-10-23T20:53:23+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508762433226
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0107s ]
+
+[ 2017-10-23T20:53:24+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-10-23T20:53:25+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508763048455
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0098s ]
+
+[ 2017-10-23T20:53:26+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508763048456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0097s ]
+
+[ 2017-10-23T20:53:26+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508763048457
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T20:53:28+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508763048458
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0068s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0103s ]
+
+[ 2017-10-23T20:56:46+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=s&species=Maize&_=1508763048459
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 's%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T20:56:46+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-10-23T20:58:00+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0102s ]
+
+[ 2017-10-23T20:58:01+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0099s ]
+
+[ 2017-10-23T20:58:03+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250221
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0103s ]
+
+[ 2017-10-23T20:58:05+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0016s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0109s ]
+
+[ 2017-10-23T20:58:05+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0110s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0107s ]
+
+[ 2017-10-23T20:58:05+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250224
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0106s ]
+
+[ 2017-10-23T20:58:06+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0102s ]
+
+[ 2017-10-23T20:58:06+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250226
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0106s ]
+
+[ 2017-10-23T20:58:07+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250227
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T20:58:08+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250228
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0110s ]
+
+[ 2017-10-23T20:58:08+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763250229
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0104s ]
+
+[ 2017-10-23T21:02:32+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2017-10-23T21:02:33+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763596018
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0016s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0105s ]
+
+[ 2017-10-23T21:02:35+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763596019
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0103s ]
+
+[ 2017-10-23T21:02:35+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763596020
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0099s ]
+
+[ 2017-10-23T21:02:36+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763596021
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0107s ]
+
+[ 2017-10-23T21:02:39+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=a&species=Maize&_=1508763596022
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0018s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'a%' )  [ RunTime:0.0132s ]
+
+[ 2017-10-23T21:03:01+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-10-23T21:03:02+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=A&species=Maize&_=1508763625757
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'A%' )  [ RunTime:0.0103s ]
+
+[ 2017-10-23T21:03:02+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=A&species=Maize&_=1508763625758
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0017s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'A%' )  [ RunTime:0.0101s ]
+
+[ 2017-10-23T21:03:04+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=A&species=Maize&_=1508763625759
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'A%' )  [ RunTime:0.0097s ]
+
+[ 2017-10-23T21:03:07+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=A&species=Maize&_=1508763625760
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0032s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'A%' )  [ RunTime:0.0103s ]
+
+[ 2017-10-23T21:03:09+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=A&species=Maize&_=1508763625761
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'A%' )  [ RunTime:0.0108s ]
+
+[ 2017-10-23T21:03:11+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-10-23T21:03:11+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/get_ajax_crmname.html?keyword=A&species=Maize&_=1508763625762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `Trait` FROM `pqc_maize` WHERE ( trait like 'A%' )  [ RunTime:0.0107s ]
+
+[ 2017-10-23T21:03:11+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-10-23T21:03:11+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-10-23T21:03:12+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-10-23T21:03:29+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-10-23T21:03:30+08:00 ] 218.199.68.251 /julei-0917/index.php/Home/Traits/traits.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: box /var/www/html/julei-0917/Application/Runtime/Cache/Home/56bd543b5acf21f57870774e06e4a987.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-10-23T21:48:51+08:00 ] 122.205.82.175 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4013' WHERE ( id = 0 ) [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-10-23T21:54:57+08:00 ] 122.205.82.175 /julei-0917/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `pageview` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `pageview` LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pageview` SET `count`='4014' WHERE ( id = 0 ) [ RunTime:0.0112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-10-23T21:55:02+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Search/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-10-23T21:55:02+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Search/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-10-23T21:55:04+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Analysis/analysis.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-10-23T21:55:05+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Analysis/find_infor.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `pqc_maize` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `Ref_infor` FROM `pqc_maize`  [ RunTime:0.0218s ]
+
+[ 2017-10-23T21:55:13+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Downloads/downloads.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-10-23T21:55:13+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Downloads/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-10-23T21:55:35+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Manual/manual.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-10-23T21:55:35+08:00 ] 122.205.82.175 /julei-0917/index.php/Home/Manual/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+

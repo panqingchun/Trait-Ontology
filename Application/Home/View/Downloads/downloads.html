@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>toenrichment</title>
+    <!-- 网站ICON -->
+    <link rel = "Shortcut Icon" href="image/favicon.ico"> 
+    <!-- 引入样式文件 style.css  -->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/downloads.css">
+</head>
+<body>
+    
+    <!-- 背景图片 -->
+    <div id="bg"></div>
+
+    <!-- 头部 -->
+    <header>
+        <div class="header">
+            <a href="" class="header-logo">
+                <span class="header-logo-icon"> ® </span>
+                <h1 class="header-logo-name">TTO enrichment</h1>
+                <div class="header-logo-dec">
+                    An integrative platform of gene functional annotation
+                </div>
+            </a>
+
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="{:U('Manual/manual')}">Manual</a></li>
+                    <li><a href="{:U('Downloads/downloads')}" class="header-nav-active">Downloads</a></li>
+                    <li><a href="{:U('Analysis/analysis')}">Analysis</a></li>
+                    <li><a href="{:U('Search/search')}">Search</a>
+                        <div id="header-subNav">
+                            <div class="header-subNav">
+                                <a href="{:U('Genes/genes')}">By Genes</a>
+                                <a href="{:U('Traits/traits')}" >By Traits</a>
+                                <a href="{:U('Blast/Blast')}" >By Blast</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="{:U('Index/index')}">Home</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-info">
+                This is an integrative gene function annotation database, including trait ontology,
+                gene ontology, metabolic pathway, and co-expression network information,
+                which provides a complete exploration of gene functional roles and comprehensive 
+                functional enrichment analysis of a subset of genes of particular interest.
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 中间主体部分 -->
+        <div class="main">
+            <div class="main-header"> Datasets deposited in our database </div>
+            <div class="main-down">
+                <div class="main-down-row">
+                    <a href="#">
+                        <img src="__PUBLIC__/image/down1.jpg">
+                    </a>
+                    <div class="main-down-row-right">
+                        <div class="right-header">
+                            Trait Ontology Dataset
+                        </div>
+                        <div class="right-middle">
+                            Gene-to-trait associations
+                        </div> 
+                        <div class="right-footer">
+                             We carefully curated the gene-to-trait associations based 
+                             on hundreds of association studies, and assigned all the 
+                             association information into the hierarchical structure of 
+                             Trait Ontology. This TO dataset contains over 10,000 genes 
+                             and more than 100,000 gene-to-trait associations, which might 
+                             be the biggest TO information in crops up to now. 
+                        </div>     
+                    </div>
+                </div>   
+                <div class="main-down-row">
+                    <a href="#">
+                        <img src="__PUBLIC__/image/down2.jpg">
+                    </a>
+                    <div class="main-down-row-right">
+                        <div class="right-header">
+                            Gene Ontology Dataset
+                        </div>
+                        <div class="right-middle">
+                            Gene-to-GO terms associations
+                        </div> 
+                        <div class="right-footer">
+                            Gene Ontology is a unifying functional annotation 
+                            of genes. All the GO information deposited in our 
+                            database was collected from AgriGO website 
+                            (http://bioinfo.cau.edu.cn/agriGO/). Please cite 
+                            original AgriGO reference if you report the GO 
+                            enrichment results. 
+                        </div>     
+                    </div>
+                </div> 
+                <div class="main-down-row">
+                    <a href="#">
+                        <img src="__PUBLIC__/image/down3.jpg">
+                    </a>
+                    <div class="main-down-row-right">
+                        <div class="right-header">
+                            Plant Cycle Dataset
+                        </div>
+                        <div class="right-middle">
+                            Genes involved in metabolic pathways
+                        </div> 
+                        <div class="right-footer">
+                            Plant Cycle Dataset contains manually curated 
+                            or reviewed information about shared and unique 
+                            metabolic pathways in maize and rice. All the 
+                            annotations were collected from PlantCyc database 
+                            (https://www.plantcyc.org/). Please cite original 
+                            PlantCyc references if you report the plant metabolic 
+                            pathway enrichment results.  
+                        </div>     
+                    </div>
+                </div>
+                <div class="main-down-row">
+                    <a href="#">
+                        <img src="__PUBLIC__/image/down4.jpg">
+                    </a>
+                    <div class="main-down-row-right">
+                        <div class="right-header">
+                            Co-expression Dataset
+                        </div>
+                        <div class="right-middle">
+                            Transcriptomic gene-to-gene networks
+                        </div> 
+                        <div class="right-footer">
+                            Co-expression network approaches provide insights into
+                             the patterns of transcriptome organization and suggest 
+                             common biological functions for networked genes. We've 
+                             constructed comprehensive and robust gene-to-gene 
+                             co-expression networks in both maize and rice 
+                             (Li et al., BMC Genomics, 2016).   
+                        </div>     
+                    </div>
+                </div>
+                <div class="main-down-row">
+                    <a href="#">
+                        <img src="__PUBLIC__/image/down5.jpg">
+                    </a>
+                    <div class="main-down-row-right">
+                        <div class="right-header">
+                            Reference Dataset
+                        </div>
+                        <div class="right-middle">
+                            Reference information using in this website
+                        </div> 
+                        <div class="right-footer">
+                            <ul style="margin-left: 17px;">
+                                <li>
+                                    Setter et al.,2010,Journal of Experimental Botany                                  
+                                </li>
+                                <li>
+                                    Kump et al.,2011,Nature genetics
+                                </li>
+                                <li>
+                                    Tian et al.,2011,Nature genetics
+                                </li>
+                                <li>
+                                    Brown et al.,2011,Plos Genetics
+                                </li>
+                                <li>
+                                    Weng et al.,2011,Plos One
+                                </li>
+                                <li>
+                                    Li et al.,2012,Nature Genetics
+                                </li>
+                                <li>
+                                    Wang et al.,2012,Plant Science
+                                </li>
+                                <li>
+                                    Riedelsheimer et al.,2012,Proceedings of the 
+                                </li>
+                                <li>
+                                    National Academy of Sciences(USA)
+                                </li>
+                                <li>
+                                    Lipka et al.,2013,G3: Genes, Genomes, Genetics
+                                </li>
+                                <li>
+                                    Zila et al.,2013,G3: Genes, Genomes, Genetics
+                                </li>
+                                <li>
+                                    Huang et al.,2013,Journal of Integrative Plant 
+                                    Biology
+                                </li>
+                                <li>
+                                    Strigens et al.,2013,Plant,Cell and Environment
+                                </li>
+                                <li>
+                                    Peiffer et al.,2013,Plos One
+                                </li>
+                                <li>
+                                    Riedelsheimer et al.,2013,Scientific report
+                                </li>
+                                <li>
+                                    Xue et al.,2013,Theoretical and Applied genetics
+                                </li>
+                                <li>
+                                    Thirunavukkarasu et al.,2014,BMC Genomics
+                                </li>
+                                <li>
+                                    Bian et al.,2014,BMC Genomics
+                                </li>
+                                <li>
+                                    Zila et al.,2014,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Owens et al.,2014,Genetics
+                                </li>
+                                <li>
+                                    Peiffer et al.,2014,Genetics
+                                </li>
+                                <li>
+                                    Wen et al.,2014,Nature Communications
+                                </li>
+                                <li>
+                                    Yang et al.,2014,Plos Genetics
+                                </li>
+                                <li>
+                                    Wallace et al.,2014,Plos Genetics
+                                </li>
+                                <li>
+                                    Benke et al.,2015,BMC Genetics
+                                </li>
+                                <li>
+                                    Pace et al.,2015,BMC Genetics
+                                </li>
+                                <li>
+                                    Samayoa et al.,2015,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Mammadov et al.,2015,BMC Genetics
+                                </li>
+                                <li>
+                                    Warburton et al.,2015,Crop Science
+                                </li>
+                                <li>
+                                    Ding et al.,2015,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Barrero Farfan et al.,2015,Plos One
+                                </li>
+                                <li>
+                                    Chen et al.,2015,Plos One
+                                </li>
+                                <li>
+                                    Zhang et al.,2015,Plant Physiology
+                                </li>
+                                <li>
+                                    Suwarno et al.,2015,Theoretical and Applied genetics
+                                </li>
+                                <li>
+                                    Gowda et al.,2015,Theoretical and Applied genetics
+                                </li>
+                                <li>
+                                    Cui et al.,2016,BMC genomics
+                                </li>
+                                <li>
+                                    Revilla et al.,2016,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Wang et al.,2016,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Liu et al.,2016,Frontiers in Plant Science
+                                </li>
+                                <li>
+                                    Li et al.,2016,Frontiers in Plant Science
+                                </li>
+                                <li>
+                                    Chen et al.,2016,G3: Genes, Genomes, Genetics
+                                </li>
+                                <li>
+                                    Wu et al.,2016,Plant Biotechnology Journal
+                                </li>
+                                <li>
+                                    Li et al.,2016,Plant Journal
+                                </li>
+                                <li>
+                                    Li et al.,2016,Plos One
+                                </li>
+                                <li>
+                                    Zhang et al.,2016,Theoretical and Applied genetics
+                                </li>
+                                <li>
+                                    Zhang et al.,2016,Toxins
+                                </li>
+                                <li>
+                                    Huang et al.,2010,Nature Genetics
+                                </li>
+                                <li>
+                                    Zhao et al.,2011,Nature Communications
+                                </li>
+                                <li>
+                                    Huang et al.,2011,Nature Genetics
+                                </li>
+                                <li>
+                                    Courtois et al.,2013,Plos One
+                                </li>
+                                <li>
+                                    Wang et al.,2014,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Phung et al.,2014,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Shao et al.,2014,Journal of Agricultural and Food Chemistry
+                                </li>
+                                <li>
+                                    Yang et al.,2014,Nature Communications
+                                </li>
+                                <li>
+                                    Chen et al.,2014,Nature Genetics
+                                </li>
+                                <li>
+                                    Norton et al.,2014,Plos One
+                                </li>
+                                <li>
+                                    Lu et al.,2015,BMC Genomics
+                                </li>
+                                <li>
+                                    Wu et al.,2015,BMC Plant Biology
+                                </li>
+                                <li>
+                                    Kumar et al.,2015,DNA Research
+                                </li>
+                                <li>
+                                    Rebolledo et al.,2015,Journal of Experimental Botany
+                                </li>
+                                <li>
+                                    Ueda et al.,2015,Journal of Experimental Botany
+                                </li>
+                                <li>
+                                    Yang et al.,2015,Journal of Experimental Botany
+                                </li>
+                                <li>
+                                    Wang et al.,2015,Molecular Plant
+                                </li>
+                                <li>
+                                    Matsuda et al.,2015,Plant Journal
+                                </li>
+                                <li>
+                                    Qiu et al.,2015,Plos One
+                                </li>
+                                <li>
+                                    Begum et al.,2015,Plos One
+                                </li>
+                                <li>
+                                    Zhang et al.,2015,Rice Science
+                                </li>
+                                <li>
+                                    Magwa et al.,2016,BMC Genomics
+                                </li>
+                                <li>
+                                    Ma et al.,2016,Frontiers in Plant Science
+                                </li>
+                                <li>
+                                    Han et al.,2016,Frontiers in Plant Science
+                                </li>
+                                <li>
+                                    Rebolledo et al.,2016,Frontiers in Plant Science
+                                </li>
+                                <li>
+                                    Xu et al.,2016,Journal of Agricultural and Food Chemistry
+                                </li>
+                                <li>
+                                    Yano et al.,2016,Nature Genetics
+                                </li>
+                                <li>
+                                    Bai et al.,2016,Plant Genome
+                                </li>
+                                <li>
+                                    Feng et al.,2016,Planta
+                                </li>
+                                <li>
+                                    Biscarini et al.,2016,Plos One
+                                </li>
+                                <li>
+                                    Zhu et al.,2016,Rice
+                                </li>
+                                <li>
+                                    Wang et al.,2016,Rice
+                                </li>
+                                <li>
+                                    Zhou et al.,2016,Scientific Report
+                                </li>
+                                <li>
+                                    Kang et al.,2016,Molecular Plant Pathology
+                                </li>
+                            </ul>  
+                        </div>     
+                    </div>
+                </div>                  
+            </div>
+        </div>
+        <!-- 页脚 -->
+        <footer>
+                <div class="footer">
+                    <ul>
+                        <li>
+                            <a href="" class="header-logo">
+                                <span class="header-logo-icon"> ® </span>
+                                <h1 class="header-logo-name">TO enrichment</h1>
+                                <div class="header-logo-dec">
+                                    An integrative platform of gene functional annotation
+                                </div>
+                            </a>
+                        </li>
+                        <li class="footer-info" style="text-align:justify;">
+                            © 2017 by Maize Germplasm and Systems Biology Lab at HZAU, Template was adopted from
+                            <a href="">Wix.com</a>
+                        </li>
+                        <li class="footer-info">No.1 Shizishan Street, Hongshan District, Wuhan, Hubei Province, 430070, P.R.China
+                            <a href="">hzaulilin@mail.hzau.edu.cn</a>
+                        </li>
+                        <li class="footer-share">
+                            <a href="">
+                                <img src="__PUBLIC__/image/f.png" alt="faceBook">
+                            </a>
+                            <a href="">
+                                <img src="__PUBLIC__/image/t.png" alt="Twitter">
+                            </a>
+                            <a href="">
+                                <img src="__PUBLIC__/image/g.png" alt="Google">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+    </div>
+
+    
+  
+</body>
+</html>

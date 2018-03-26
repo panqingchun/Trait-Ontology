@@ -1,0 +1,6 @@
+[ 2017-10-18T16:43:53+08:00 ] 218.199.68.251 /julei-0917/index.php/image/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:Image
+

@@ -1,0 +1,1 @@
+a:5:{i:0;s:2:"ID";i:1;s:4:"Gene";i:2;s:13:"TO_annotation";i:3;s:5:"TO_ID";s:5:"_type";a:4:{s:2:"ID";s:12:"varchar(255)";s:4:"Gene";s:12:"varchar(255)";s:13:"TO_annotation";s:12:"varchar(255)";s:5:"TO_ID";s:12:"varchar(255)";}}

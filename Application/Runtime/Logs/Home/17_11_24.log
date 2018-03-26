@@ -1,0 +1,12 @@
+[ 2017-11-24T10:13:53+08:00 ] 111.206.59.141 /julei-0917/index.php/home/Analysis/un_download.html
+ERR: Invalid character found in sheet title
+
+[ 2017-11-24T15:23:23+08:00 ] 218.199.68.251 /julei-0917/index.php/home/blast/blast.html
+ERR: 模板不存在:./Application/Home/View/Blast/blast.html
+
+[ 2017-11-24T16:07:03+08:00 ] 122.205.70.189 /julei-0917/index.php/home/manual/
+ERR: 非法操作:index
+
+[ 2017-11-24T16:07:14+08:00 ] 101.226.66.181 /julei-0917/index.php/home/manual
+ERR: 非法操作:index
+

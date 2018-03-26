@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/play.css">
+</head>
+<body>
+<div onclick="showtab1()" class="tab1">
+   <span>Tab 1</span>
+</div>
+<div onclick="showtab2" class="tab2">
+   <span>Tab 2</span>
+</div>
+<div onclick="showtab3" class="tab3">
+   <span>Tab 3</span>
+</div><br>
+<div id="otherDiv1">
+    <canvas id="myCanvas" width="500" height="500">
+        Your browser does not support the canvas element.
+    </canvas>
+</div>
+<div id="otherDiv2">
+<volist name="box" id="vol">
+      {$vol['function']};
+    </volist>
+</div>
+
+    <script>
+        var c=document.getElementById("myCanvas");
+        var ctx=c.getContext("2d");
+        var radius = 250;
+        // 虚线圆环
+        ctx.translate(radius, radius); // 改变旋转中心
+        ctx.beginPath();
+        ctx.arc(0, 0, 200, 0, Math.PI/60);
+        ctx.strokeStyle = '#fff';
+        ctx.stroke();
+        ctx.closePath();
+        for(var i=0; i<40; i++) {
+            ctx.beginPath();
+            ctx.rotate(10*Math.PI/180);
+            ctx.arc(0, 0, 200, 0, Math.PI/60);
+            ctx.strokeStyle = '#fff';
+            ctx.stroke();
+            ctx.closePath();
+        }
+
+        var R = 30;
+        // 还原rotate
+        ctx.rotate(-400*Math.PI/180);
+        // 聚点生成函数
+        function dot(X, Y, color) {
+            var x = Math.round(Math.random()*2*R+(X-R));
+            var y = Math.round(Math.random()*2*R+(Y-R));
+            console.log(x);
+            console.log(y);
+            ctx.fillStyle=color;
+            ctx.beginPath();
+            ctx.arc(x,y,5,0,Math.PI*2,true);
+            ctx.closePath();
+            ctx.fill();
+        }
+        // 红色聚点
+        for(var i=0;i<25;i++) {
+            dot(100, 100, "#E51858");
+        }
+        // 黄色聚点
+        for(var i=0;i<30;i++) {
+            dot(-100, -100, "#F5ED26");
+        }
+        // 青色聚点
+        for(var i=0;i<20;i++) {
+            dot(50, -100, "#464AA1");
+        }
+        // 蓝色聚点
+        for(var i=0;i<18;i++) {
+            dot(-100, 50, "#3497D3");
+        }
+        // 其他聚点
+        for(var i=0;i<30;i++) {
+            dot(10, 50, "#EF1C24");
+        }
+        for(var i=0;i<20;i++) {
+            dot(-70, 70, "#B9529F");
+        }
+        for(var i=0;i<25;i++) {
+            dot(-70, -70, "#F15C22");
+        }
+        for(var i=0;i<20;i++) {
+            dot(-100, 10, "#764E1E");
+        }
+        for(var i=0;i<30;i++) {
+            dot(70, 70, "#BFD730");
+        }
+        for(var i=0;i<25;i++) {
+            dot(100, -100, "#6CCDDD");
+        }
+        for(var i=0;i<30;i++) {
+            dot(30, 90, "#EF1C24");
+        }
+        for(var i=0;i<20;i++) {
+            dot(-10, -100, "#B9529F");
+        }
+        for(var i=0;i<25;i++) {
+            dot(0, -50, "#F15C22");
+        }
+        for(var i=0;i<20;i++) {
+            dot(-50, 0, "#764E1E");
+        }
+        for(var i=0;i<30;i++) {
+            dot(20, 70, "#BFD730");
+        }
+        for(var i=0;i<25;i++) {
+            dot(10, -100, "#6CCDDD");
+        }
+
+
+
+        function showtab1(){
+    //获取要显示的div对象
+    var  otherDiv=document.getElementById('otherDiv1');
+    //显示
+    otherDiv.style.display="block";
+}
+    function showtab2(){
+    //获取要显示的div对象
+    var  otherDiv=document.getElementById('otherDiv2');
+    //显示
+    otherDiv.style.display="block";
+}
+    function showtab3(){
+    //获取要显示的div对象
+    var  otherDiv=document.getElementById('otherDiv3');
+    //显示
+    otherDiv.style.display="block";
+}
+    </script>
+</body>
+</html>
